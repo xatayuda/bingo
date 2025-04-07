@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="lock-screen" id="lock-screen">
+        <h2>El Juego está a un PIN de empezar!</h2>
+        <input type="password" id="pin-input" placeholder="Ingrese el PIN">
+        <button onclick="unlockProfile()" class="lock-button">Desbloquear</button>
+    </div>
+    <img src="https://i.postimg.cc/90PWcPB6/bingo-Banner.png" width="600" alt="titulo">
+    <h1>Juego de Bingo</h1>
+    <div id="display">?</div>
+    <div class="button-container">
+        <button id="callButton">Llamar próxima bola</button>
+        <button id="autoButton">Automático - 5seg</button>
+        <button id="resetButton">Reiniciar</button>
+        <button id="bingo90Button">Bingo 1-90</button>
+        <button id="bingo100Button">Bingo 1-100</button>
+    </div>
+    <div id="calledNumbers">
+        <p>Números llamados:</p>
+    </div>
+    <div id="numberTable"></div>
+    <!-- Firma DjFunny -->
+    <div class="content">
+        <h2>Dj Funny</h2>
+        <h2>Dj Funny</h2>
+    </div>
+</body>
+</html>
