@@ -66,7 +66,7 @@ let availableNumbers = [];
 
         function unlockProfile() {
             var pin = document.getElementById("pin-input").value;
-            if (pin === "250604") {
+            if (pin === "13") {
                 document.getElementById("lock-screen").style.display = "none";}}
 
         // Marcar número en la tabla
